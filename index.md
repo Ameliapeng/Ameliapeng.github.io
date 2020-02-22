@@ -7,6 +7,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 ### EDUCATION
 **University of Electronic Science and Technology of China(UESTC)**  
 B.Eng.,Software Engineering                 GPA:3.7/4.0 Top10%
+
 **University of California,Santa Barbara(UCSB)**  
 exchange student, Computer Science  
 Lesson in progress:Machine Learning; Computer Graphics; Data Structure 
