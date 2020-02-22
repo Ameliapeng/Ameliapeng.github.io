@@ -1,37 +1,47 @@
-## Welcome to GitHub Pages
+## XUEQIAO PENG(AMELIA)
 
 You can use the [editor on GitHub](https://github.com/Ameliapeng/XueqiaoPeng.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### EDUCATION
+**University of Electronic Science and Technology of China(UESTC)**  
+B.Eng.,Software Engineering                 GPA:3.7/4.0 Top10%
+**University of California,Santa Barbara(UCSB)**  
+exchange student, Computer Science  
+Lesson in progress:Machine Learning; Computer Graphics; Data Structure 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### PUBLICATION  
+- Kuang Y, Lan T, **Peng X**, Zhang J (2019) " Unsupervised Multi-discriminator Generative Adversarial Network for Lung Nodule Malignancy Classification." IEEE Access. Under Review.
 
-```markdown
-Syntax highlighted code block
+### RESEARCH EXPERIENCE
+**Multi-Discriminator Generative Adversarial Network (MDGAN)**
+**Network and Data Security Lab, UESTC, Chengdu, China**
+Advisor: Prof. Tian Lan
+* Focused on **Unsupervised Learning** in pulmonary medical images processing.
+* Built an **Unsupervised Multi-Discriminator Generation Adversarial Network** combined with encoder for benign and malignant classification of lung nodules, calculated the MDGAN discriminator feature loss and image reconstruction loss to score the malignancy.
+* **Conclusion**:Our method can obtain better results than other supervised learning methods (Autoencoder plus Decision tree; Multi-crop CNN) after training the model using only unlabeled benign lung nodules: **Accuracy** increased by approximately 20%, **Sensitivity** increased by approximately 10%, and **Specificity** increased by approximately 9% (Compared with Autoencoder plus Decision tree); Accuracy increased by approximately 8%, Sensitivity was similar, and Specificity increased by approximately 14%(Compared with Multi-crop CNN).
 
-# Header 1
-## Header 2
-### Header 3
+**Image classification website based on Dense-Net**
+**School of information and software engineering, UESTC, Chengdu, China**
+Advisor: Dr. Li Yi
+* Developed a website for classification with image recognition, independent editing, comments, collection and other personalized functions.
+*	Trained the Dense-Net Network from dataset Cifar100, using TensorFlow in Python.
+                                                                                                                                               
+**Hackathon: Unit testing of a voting system**
+**Leiden Institute of Advanced Computer Science, Leiden University,Netherland** 
+**Course Projects**
+Advisor: Dr. Marcello Bonsangue
+* Applied Java for a voting system which is activated by an initiator.
+*	Collects a vote from a group of external voter objects.
+*	Implemented in Java an automated test environment for the unit testing.
 
-- Bulleted
-- List
+**Lexer**
+**School of information and software engineering, UESTC, Chengdu, China**
+Advisor: Dr. Erqiang Zhou
+* Built a Lexer which can identify the validity of the text and output the judgement process and results.
+*	Adopted a **top-down grammar**, which enables lexer to construct a predictive analytical chart, and judged the next step of the lexer by comparing the top of the stack and the input text.
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Ameliapeng/XueqiaoPeng.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### SKILLS/ INTERESTS  
+- Software: C, python, java, tensorflow, PostgreSQL,Linux,LATEX 
+  
