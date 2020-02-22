@@ -6,7 +6,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 ### EDUCATION
 **University of Electronic Science and Technology of China(UESTC)**  
-B.Eng.,Software Engineering                 GPA:3.7/4.0 Top10%
+B.Eng.,Software Engineering                 GPA:3.7/4.0 Top10%  
 
 **University of California,Santa Barbara(UCSB)**  
 exchange student, Computer Science  
@@ -17,15 +17,15 @@ Lesson in progress:Machine Learning; Computer Graphics; Data Structure
 
 ### RESEARCH EXPERIENCE
 **Multi-Discriminator Generative Adversarial Network (MDGAN)**
-**Network and Data Security Lab, UESTC, Chengdu, China**
+**Network and Data Security Lab, UESTC, Chengdu, China**  
 
 Advisor: Prof. Tian Lan
-* Focused on **Unsupervised Learning** in pulmonary medical images processing.
-* Built an **Unsupervised Multi-Discriminator Generation Adversarial Network** combined with encoder for benign and malignant classification of lung nodules, calculated the MDGAN discriminator feature loss and image reconstruction loss to score the malignancy.
-* **Conclusion**:Our method can obtain better results than other supervised learning methods (Autoencoder plus Decision tree; Multi-crop CNN) after training the model using only unlabeled benign lung nodules: **Accuracy** increased by approximately 20%, **Sensitivity** increased by approximately 10%, and **Specificity** increased by approximately 9% (Compared with Autoencoder plus Decision tree); Accuracy increased by approximately 8%, Sensitivity was similar, and Specificity increased by approximately 14%(Compared with Multi-crop CNN).
+* Focused on Unsupervised Learning in pulmonary medical images processing.
+* Built an Unsupervised Multi-Discriminator Generation Adversarial Network combined with encoder for benign and malignant classification of lung nodules, calculated the MDGAN discriminator feature loss and image reconstruction loss to score the malignancy.
+* Conclusion:Our method can obtain better results than other supervised learning methods (Autoencoder plus Decision tree; Multi-crop CNN;Hierarchical semantic CNN; MV=KBC) after training the model using only unlabeled benign lung nodules
 
 **Image classification website based on Dense-Net**
-**School of information and software engineering, UESTC, Chengdu, China**
+**School of information and software engineering, UESTC, Chengdu, China**  
 
 Advisor: Dr. Li Yi
 * Developed a website for classification with image recognition, independent editing, comments, collection and other personalized functions.
@@ -33,7 +33,7 @@ Advisor: Dr. Li Yi
                                                                                                                                                
 **Hackathon: Unit testing of a voting system**
 **Leiden Institute of Advanced Computer Science, Leiden University,Netherland** 
-**Course Projects**
+**Course Projects**  
 
 Advisor: Dr. Marcello Bonsangue
 * Applied Java for a voting system which is activated by an initiator.
@@ -41,11 +41,11 @@ Advisor: Dr. Marcello Bonsangue
 *	Implemented in Java an automated test environment for the unit testing.
 
 **Lexer**
-**School of information and software engineering, UESTC, Chengdu, China**
+**School of information and software engineering, UESTC, Chengdu, China**   
 
 Advisor: Dr. Erqiang Zhou
 * Built a Lexer which can identify the validity of the text and output the judgement process and results.
-*	Adopted a **top-down grammar**, which enables lexer to construct a predictive analytical chart, and judged the next step of the lexer by comparing the top of the stack and the input text.
+*	Adopted a top-down grammar, which enables lexer to construct a predictive analytical chart, and judged the next step of the lexer by comparing the top of the stack and the input text.
 
 ### SKILLS/ INTERESTS  
 - Software: C, python, java, tensorflow, PostgreSQL,Linux,LATEX 
