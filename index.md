@@ -18,6 +18,7 @@ Lesson in progress:Machine Learning; Computer Graphics; Data Structure
 ### RESEARCH EXPERIENCE
 **Multi-Discriminator Generative Adversarial Network (MDGAN)**
 **Network and Data Security Lab, UESTC, Chengdu, China**
+
 Advisor: Prof. Tian Lan
 * Focused on **Unsupervised Learning** in pulmonary medical images processing.
 * Built an **Unsupervised Multi-Discriminator Generation Adversarial Network** combined with encoder for benign and malignant classification of lung nodules, calculated the MDGAN discriminator feature loss and image reconstruction loss to score the malignancy.
@@ -25,6 +26,7 @@ Advisor: Prof. Tian Lan
 
 **Image classification website based on Dense-Net**
 **School of information and software engineering, UESTC, Chengdu, China**
+
 Advisor: Dr. Li Yi
 * Developed a website for classification with image recognition, independent editing, comments, collection and other personalized functions.
 *	Trained the Dense-Net Network from dataset Cifar100, using TensorFlow in Python.
@@ -32,6 +34,7 @@ Advisor: Dr. Li Yi
 **Hackathon: Unit testing of a voting system**
 **Leiden Institute of Advanced Computer Science, Leiden University,Netherland** 
 **Course Projects**
+
 Advisor: Dr. Marcello Bonsangue
 * Applied Java for a voting system which is activated by an initiator.
 *	Collects a vote from a group of external voter objects.
@@ -39,6 +42,7 @@ Advisor: Dr. Marcello Bonsangue
 
 **Lexer**
 **School of information and software engineering, UESTC, Chengdu, China**
+
 Advisor: Dr. Erqiang Zhou
 * Built a Lexer which can identify the validity of the text and output the judgement process and results.
 *	Adopted a **top-down grammar**, which enables lexer to construct a predictive analytical chart, and judged the next step of the lexer by comparing the top of the stack and the input text.
