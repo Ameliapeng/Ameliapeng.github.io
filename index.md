@@ -1,8 +1,7 @@
 ## XUEQIAO PENG(AMELIA)
 
-You can use the [editor on GitHub](https://github.com/Ameliapeng/XueqiaoPeng.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+[CV]  [E-mail](ameliapxq0131@gmail.com)
+[Transcript]  
 
 ### EDUCATION
 **University of Electronic Science and Technology of China(UESTC)**  
@@ -12,17 +11,18 @@ B.Eng.,Software Engineering                 GPA:3.71/4.0 Top10%
 ### PUBLICATION  
 - Yuke Wang, Boyuan Feng, **Xueqiao Peng**, Yufei Ding. 
   **Convolution Neural Network Architecture Optimization via Information Field.**
-  AAAI,2021. Submitted.
+  AAAI,2021. Submitted. [PDF](https://arxiv.org/abs/2009.05236)
 - Boyuan Feng, Yuke Wang, Xu Li, Shu Yang, **Xueqiao Peng**, Yufei Ding. 
   **SGQuant: Squeezing the Last Bit on Graph Neural Networks with Specialized Quantization.**
-  ICTAI,2020. Accepted.
+  ICTAI,2020. Accepted. [PDF](https://arxiv.org/abs/2007.05100)
 - Yan Kuang, Tian Lan, **Xueqiao Peng**, Gati Elvis Selasi, Qiao Liu, Junyi Zhang. 
-  **Unsupervised Multi-discriminator Generative Adversarial Network for Lung Nodule Malignancy Classification.**   IEEE Access,2019. Accepted.
+  **Unsupervised Multi-discriminator Generative Adversarial Network for Lung Nodule Malignancy Classification.**   IEEE Access,2019. Accepted. [PDF](https://ieeexplore.ieee.org/abstract/document/9066829)
 
 ### RESEARCH EXPERIENCE
-**Department of Computer Science, University of California, Santa Barbara**
-Advisor: Prof. Yufei Ding
 
+Department of Computer Science, University of California, Santa Barbara
+
+Advisor: Prof. Yufei Ding
 **Information Field (CNNIF)**
 
 *	Proposed Information Field to estimate the quality of a CNN architecture and guide the search process of designs.
@@ -45,10 +45,7 @@ Advisor: Prof. Yufei Ding
 *	Fully integrated DSXplore with the Pytorch framework to improve programmability.
 
 
-
-
-
-**Network and Data Security Lab, UESTC, Chengdu, China** 
+Network and Data Security Lab, UESTC, Chengdu, China
 **Multi-Discriminator Generative Adversarial Network (MDGAN)**
 
 Advisor: Prof. Tian Lan
@@ -57,15 +54,14 @@ Advisor: Prof. Tian Lan
 *	Accomplished the Image Preprocessing of pulmonary nodules in the experiment and was responsible for the translation and typesetting of the paper for IEEE Access, 2019.
 
 
+School of information and software engineering, UESTC, Chengdu, China
 **Image classification website based on Dense-Net**
-**School of information and software engineering, UESTC, Chengdu, China**  
 
 Advisor: Dr. Li Yi
 * Developed a website for classification with image recognition, independent editing, comments, collection and other personalized functions.
 *	Trained the Dense-Net Network from dataset Cifar100, using TensorFlow in Python.
-                                                                                                                                               
+                                                                                                                 Leiden Institute of Advanced Computer Science, Leiden University, Netherland                           
 **Hackathon: Unit testing of a voting system**
-**Leiden Institute of Advanced Computer Science, Leiden University,Netherland** 
 **Course Projects**  
 
 Advisor: Dr. Marcello Bonsangue
@@ -73,8 +69,8 @@ Advisor: Dr. Marcello Bonsangue
 *	Collects a vote from a group of external voter objects.
 *	Implemented in Java an automated test environment for the unit testing.
 
+School of information and software engineering, UESTC, Chengdu, China
 **Lexer**
-**School of information and software engineering, UESTC, Chengdu, China**   
 
 Advisor: Dr. Erqiang Zhou
 * Built a Lexer which can identify the validity of the text and output the judgement process and results.
