@@ -10,13 +10,13 @@ B.Eng.,Software Engineering                 GPA:3.71/4.0 Top10%
 
 ### PUBLICATION  
 - Yuke Wang, Boyuan Feng, **Xueqiao Peng**, Yufei Ding.<br> 
-  "Convolution Neural Network Architecture Optimization via Information Field."
-  AAAI,2021. Submitted. [PDF](https://arxiv.org/abs/2009.05236)<br>
+  "Convolution Neural Network Architecture Optimization via Information Field."<br>
+  AAAI,2021. Submitted. [https://arxiv.org/abs/2009.05236](https://arxiv.org/abs/2009.05236)<br>
 - Boyuan Feng, Yuke Wang, Xu Li, Shu Yang, **Xueqiao Peng**, Yufei Ding.<br> 
   "SGQuant: Squeezing the Last Bit on Graph Neural Networks with Specialized Quantization."
-  ICTAI,2020. Accepted. [PDF](https://arxiv.org/abs/2007.05100)<br>
+  ICTAI,2020. Accepted. [https://arxiv.org/abs/2007.05100](https://arxiv.org/abs/2007.05100)<br>
 - Yan Kuang, Tian Lan, **Xueqiao Peng**, Gati Elvis Selasi, Qiao Liu, Junyi Zhang.<br> 
-  "Unsupervised Multi-discriminator Generative Adversarial Network for Lung Nodule Malignancy Classification."     IEEE Access,2019. Accepted. [PDF](https://ieeexplore.ieee.org/abstract/document/9066829)
+  "Unsupervised Multi-discriminator Generative Adversarial Network for Lung Nodule Malignancy Classification." <br>    IEEE Access,2019. Accepted. [https://ieeexplore.ieee.org/abstract/document/9066829](https://ieeexplore.ieee.org/abstract/document/9066829)
 
 ### RESEARCH EXPERIENCE
 
