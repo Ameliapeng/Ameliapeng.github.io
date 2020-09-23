@@ -20,22 +20,22 @@ B.Eng.,Software Engineering                 GPA:3.71/4.0 Top10%
 
 ### RESEARCH EXPERIENCE
 
-**Department of Computer Science, University of California, Santa Barbara**
-**Information Field (CNNIF)**
+**Department of Computer Science, University of California, Santa Barbara**<br>
+**Information Field (CNNIF)**<br>
 Advisor: Prof. Yufei Ding
 *	Proposed Information Field to estimate the quality of a CNN architecture and guide the search process of designs.
 *	Built a static optimizer to improve the CNN architectures at both the stage level and the kernel level to validate the effectiveness of Information field.
 * Inspired by the optimizer at the kernel level, an unexplored convolution blocks and a new type of factorized kernel are designed.
 *	Accomplished the Stage-level organizer and was responsible for the proofreading of the paper for AAAI, 2021.
 
-**Specialized Quantization (SGQuant)**
+**Specialized Quantization (SGQuant)**<br>
 Advisor: Prof. Yufei Ding
 *	Proposed a specialized GNN quantization scheme, SGQuant, to systematically reduce the GNN memory consumption.
 *	Designed a GNN-tailored quantization algorithm and a GNN quantization fine-tuning scheme to reduce memory consumption.
 *	Investigated the multi-granularity quantization strategy that operates at different levels (components, graph topology, and layers) of GNN computation.
 *	Offered an automatic bit-selecting (ABS) to pinpoint the most appropriate quantization bits for the above multi-granularity quantization.
 
-**Sliding-Channel Convolutions (DSXplore)**
+**Sliding-Channel Convolutions (DSXplore)**<br>
 Advisor: Prof. Yufei Ding
 *	Proposed DeepXplore, which is an efficient deep separable convolution on GPU.
 *	Designed a novel deep separable convolution, sliding convolution, featured with channel overlapping that can significantly overcome the accuracy drop from the existing convolutions at algorithmic optimization.
@@ -43,28 +43,28 @@ Advisor: Prof. Yufei Ding
 *	Fully integrated DSXplore with the Pytorch framework to improve programmability.
 
 
-**Network and Data Security Lab, UESTC, Chengdu, China**
-**Multi-Discriminator Generative Adversarial Network (MDGAN)**
+**Network and Data Security Lab, UESTC, Chengdu, China**<br>
+**Multi-Discriminator Generative Adversarial Network (MDGAN)**<br>
 Advisor: Prof. Tian Lan
 *	Focused on Unsupervised Learning in pulmonary medical images processing.
 *	Built an Unsupervised Multi-Discriminator Generation Adversarial Network combined with encoder for benign and malignant classification of lung nodules, calculated the MDGAN discriminator feature loss and image reconstruction loss to score the malignancy.
 *	Accomplished the Image Preprocessing of pulmonary nodules in the experiment and was responsible for the translation and typesetting of the paper for IEEE Access, 2019.
 
 
-**School of information and software engineering, UESTC, Chengdu, China**
-**Image classification website based on Dense-Net**
+**School of information and software engineering, UESTC, Chengdu, China**<br>
+**Image classification website based on Dense-Net**<br>
 Advisor: Dr. Li Yi
 * Developed a website for classification with image recognition, independent editing, comments, collection and other personalized functions.
 *	Trained the Dense-Net Network from dataset Cifar100, using TensorFlow in Python.
-                                                                                                                 **Leiden Institute of Advanced Computer Science, Leiden University, Netherland **                          
-**Hackathon: Unit testing of a voting system**
+                                                                                                                 **Leiden Institute of Advanced Computer Science, Leiden University, Netherland**<br>                         
+**Hackathon: Unit testing of a voting system**<br>
 **Course Projects**  
 Advisor: Dr. Marcello Bonsangue
 * Applied Java for a voting system which is activated by an initiator.
 *	Collects a vote from a group of external voter objects.
 *	Implemented in Java an automated test environment for the unit testing.
 
-**School of information and software engineering, UESTC, Chengdu, China**
+**School of information and software engineering, UESTC, Chengdu, China**<br>
 **Lexer**
 Advisor: Dr. Erqiang Zhou
 * Built a Lexer which can identify the validity of the text and output the judgement process and results.
