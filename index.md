@@ -20,11 +20,10 @@ B.Eng.,Software Engineering                 GPA:3.71/4.0 Top10%
 
 ### RESEARCH EXPERIENCE
 
-Department of Computer Science, University of California, Santa Barbara
-
-Advisor: Prof. Yufei Ding
+**Department of Computer Science, University of California, Santa Barbara**
 **Information Field (CNNIF)**
 
+Advisor: Prof. Yufei Ding
 *	Proposed Information Field to estimate the quality of a CNN architecture and guide the search process of designs.
 *	Built a static optimizer to improve the CNN architectures at both the stage level and the kernel level to validate the effectiveness of Information field.
 * Inspired by the optimizer at the kernel level, an unexplored convolution blocks and a new type of factorized kernel are designed.
@@ -32,6 +31,7 @@ Advisor: Prof. Yufei Ding
 
 **Specialized Quantization (SGQuant)**
 
+Advisor: Prof. Yufei Ding
 *	Proposed a specialized GNN quantization scheme, SGQuant, to systematically reduce the GNN memory consumption.
 *	Designed a GNN-tailored quantization algorithm and a GNN quantization fine-tuning scheme to reduce memory consumption.
 *	Investigated the multi-granularity quantization strategy that operates at different levels (components, graph topology, and layers) of GNN computation.
@@ -39,13 +39,14 @@ Advisor: Prof. Yufei Ding
 
 **Sliding-Channel Convolutions (DSXplore)**
 
+Advisor: Prof. Yufei Ding
 *	Proposed DeepXplore, which is an efficient deep separable convolution on GPU.
 *	Designed a novel deep separable convolution, sliding convolution, featured with channel overlapping that can significantly overcome the accuracy drop from the existing convolutions at algorithmic optimization.
 *	Reduced the atomic operation during the forward and backward phase by leveraging the output-centric and input-centric thread mapping techniques at implementation level
 *	Fully integrated DSXplore with the Pytorch framework to improve programmability.
 
 
-Network and Data Security Lab, UESTC, Chengdu, China
+**Network and Data Security Lab, UESTC, Chengdu, China**
 **Multi-Discriminator Generative Adversarial Network (MDGAN)**
 
 Advisor: Prof. Tian Lan
@@ -54,13 +55,13 @@ Advisor: Prof. Tian Lan
 *	Accomplished the Image Preprocessing of pulmonary nodules in the experiment and was responsible for the translation and typesetting of the paper for IEEE Access, 2019.
 
 
-School of information and software engineering, UESTC, Chengdu, China
+**School of information and software engineering, UESTC, Chengdu, China**
 **Image classification website based on Dense-Net**
 
 Advisor: Dr. Li Yi
 * Developed a website for classification with image recognition, independent editing, comments, collection and other personalized functions.
 *	Trained the Dense-Net Network from dataset Cifar100, using TensorFlow in Python.
-                                                                                                                 Leiden Institute of Advanced Computer Science, Leiden University, Netherland                           
+                                                                                                                 **Leiden Institute of Advanced Computer Science, Leiden University, Netherland **                          
 **Hackathon: Unit testing of a voting system**
 **Course Projects**  
 
@@ -69,7 +70,7 @@ Advisor: Dr. Marcello Bonsangue
 *	Collects a vote from a group of external voter objects.
 *	Implemented in Java an automated test environment for the unit testing.
 
-School of information and software engineering, UESTC, Chengdu, China
+**School of information and software engineering, UESTC, Chengdu, China**
 **Lexer**
 
 Advisor: Dr. Erqiang Zhou
