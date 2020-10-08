@@ -26,16 +26,16 @@
 									<!-- <a href="index.html" class="logo"><strong>Editorial</strong> by HTML5 UP</a> -->
 									<ul class="icons">
 										<!-- <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li> -->
-										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="https://www.facebook.com/amelia.peng.14" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+										<li><a href="https://github.com/Ameliapeng" class="icon brands fa-github"><span class="label">Github</span></a></li>
+										<li><a href="https://www.instagram.com/yuuuukii.131" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
 									</ul>
 								</header>
 
 							<!-- Content -->
 								<section>
 									<header class="main">
-										<h1>Information Field</h1>
+										<h1>MDGAN</h1>
 									</header>
 									<!-- <div class="posts">  -->
 										<!-- <article>
@@ -49,31 +49,20 @@
 										<!-- </article> -->
 									<!-- </div> -->
 
-									<p><br />The unparalleled successes attract many interests in CNN architecture design to improve accuracy or reduce complexity. Examples include an array of efficient models that have been crafted manually (e.g., VGG, MobileNet, ShuffleNet) and those generated automatically by the neural architecture search (NAS) tools. Yet, two challenges of CNN architecture design remain far from well resolved: <b>1) missing an interpretable metric</b>, and <b>2) huge training efforts</b>. The former indicates that some direct and easy-to-interpret metric is still missing to guide the design, while the latter means that the repeated training cost is huge for evaluating different architecture designs in the search process.</p>
-									<p>To address these challenges, we propose <b>Information Field (IF)</b>, an interpretable metric, for efficient CNN architecture designs. Particularly, we focus on two levels: the stage level1 and the kernel level. At the stage level, we decide the number of convolution kernels in different stages, while at the kernel level we choose the type of the convolution kernel to use (i.e., standard convolution kernels or efficient factorized kernels (Sifre and Mallat 2014; Zhang et al. 2018)). </p>
+									<p><br />Computer-aided diagnosis systems with deep learning frameworks have been used to identify benign and malignant pulmonary nodules in lung cancer diagnosis. It’s commonly known that a premise of training complex deep neural nets is the large-scale labeled datasets. However, the abundance of labeled datasets is usually unavailable in many medical image domains. This factor can lead to the poor generalization performance of deep learning models. Thus, we proposed a novel multi-discriminator generative adversarial network model combined with an encoder using unsupervised method for the classification of benign and malignant pulmonary nodules. </p>
+									
 									
 
 									<hr class="major" />
 
-									<h2>Difinition of Information Field</h2>
-									<img src="images/IF_2.png" alt="" style="width: 500px;"/>
-									<p><br>For a CNN stage with a sequence of layers, we define the Information Field (IF) for the k<sup>th</sup> convolution layer in the current stage as IF<sub>k</sub>.This IF<sub>k</sub> captures the number of neurons in the initial input tensor to the CNN stage that contributes to computing individual neurons in this layer k. This initial input tensor is the w<sub>0</sub> × w<sub>0</sub> × 3 input tensor (e.g., input image) in the first stage of a CNN, and a w<sub>0</sub> × w<sub>0</sub> ×c<sub>0</sub> input tensor in later stages. Here, w<sub>0</sub> is the spatial width of the input tensor and c<sub>0</sub> is the channel number of the input tensor. To cater convolution layers with diverse kernel sizes and types, our IF considers two factors of the spatial width IF<sub>k</sub><sup>w</sup> for the kernel size and the channel number IF<sub>k</sub><sup>c</sup> for the convolution type</p>
-									<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.</p> -->
+									<h2>Overview of MDGAN</h2>
+									<img src="images/MDGAN_1.png" alt="" style="width: 900px;"/>
+									<p><br>An overview of the proposed classification approach of lung nodules is shown in this picture, which mainly includes three steps: (a) sample datasets construction; (b) model training: multi-discriminator generative adversarial network training and MDGAN guided encoder training; (c) lung nodule malignancy classification. Using the publicly available LIDC-IDRI dataset, information of lung nodule locations and their benign and malignant levels are extracted from the XML file and the ROI regions of lung nodules are segmented to form the sample dataset. The sample set is divided into a training set and a test set. Data argumentation was performed on the training set.</p>
+									<p>Unlabeled benign pulmonary nodules were used to train the multi-discriminator GAN network. The trained generator and discriminator were combined with an encoder with the real unmarked lung nodules image mapped to the latent space. The spatial data representation was subsequently used as an input to the MDGAN network generator. The corresponding image is generated based on the compressed data representation, making the difference between the real image and the generated image very small, and the degree of their deviation will be used to calculate the abnormal score. The higher the abnormal score is, the higher the degree of malignant lung nodules is. Benign and malignant classification results can then be obtained according to the defined threshold.</p>
 
-									<hr class="major" />
+							
 
-									<h2>Stage Level Organizer</h2>
-									<img src="images/IF_1.png" alt="" style="width: 600px;" />
-									<p>Our stage-level organizer as depicted in this figure. It manages to improve the prediction accuracy of a CNN design by iteratively removing a convolution kernel from a saturated stage or moving it to another stage with more room to absorb new information (i.e., learn from more marginal elements introduced by the kernel).</p>
-									<!-- <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.</p> -->
-
-									<hr class="major" />
-
-									<h2>Kernel Level Decomposer</h2>
-									<p>At the kernel level, our decomposer reduces the computational cost of a CNN architecture design, by substituting its standard convolution kernels with less computational expensive convolution blocks. The key challenge here is to construct such an efficient and effective convolution block with multiple factorized kernels. We provide the first easy-to-follow design principle, Rule of Kernel Replacement, to guide the design of efficient convolution blocks.</p>
-									<h3>Rule of Kernel Replacement</h3>
-									<p>To avoid significant accuracy degradation and achieve computation efficiency, a convolution block N can replace the standard convolution kernels S only if two conditions are satisfied: 1) Quality Condition: IF(N) = IF(S) for the same input tensor; 2) Compact Condition: IF (N −x) &lt IF (S) if we remove a factorized kernel x from N. The former ensures the effectiveness of N with regards to its learning capacity, while the latter guarantees its optimality in terms of computation efficiency. The rule helps us unify the previous construction of the convolution block, as well as inspires us to build a new convolution blocks and one efficient factorized kernel.</p>
-
+			
 								</section>
 
 						</div>
